@@ -5,6 +5,7 @@ export default defineConfig({
   modules: ['@wxt-dev/module-solid'],
   manifest: {
     name: "Xen",
-    permissions: ['tabs'],
+    description: "Vertical tab management that actually works",
+    permissions: ['tabs', "sidePanel"],
   },
 });
