@@ -1,5 +1,4 @@
 import { createSignal } from 'solid-js';
-import './App.css';
 
 function App() {
   const [count, setCount] = createSignal(0);
@@ -8,7 +7,7 @@ function App() {
     <div class="p-8 text-center">
       <h1>WXT + Solid</h1>
       <div class="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button class="p-2 rounded-md bg-blue-500 text-white" onClick={() => setCount((count) => count + 1)}>
           count is {count()}
         </button>
         <p>
