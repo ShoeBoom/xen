@@ -1,5 +1,4 @@
 export default defineBackground(() => {
-  console.log('Hello background!', { id: browser.runtime.id });
   browser.tabs.onCreated.addListener(async (tab) => {
     if (tab.pinned) return;
     if (tab.id === undefined || tab.windowId === undefined) return;
