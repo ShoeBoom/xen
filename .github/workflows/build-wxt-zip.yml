@@ -26,5 +26,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: xen
-          path: ./.output/**.zip
+          path: build/app/.output/*.zip
           if-no-files-found: error
