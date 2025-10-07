@@ -1,7 +1,7 @@
 name: Build WXT ZIP
 
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   build-zip:
