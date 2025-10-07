@@ -26,5 +26,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: xen
-          path: build/app/.output/*.zip
+          include-hidden-files: true
+          path: .output/*.zip
           if-no-files-found: error
