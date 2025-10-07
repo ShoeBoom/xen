@@ -26,5 +26,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: xen
-          path: .output/?-chrome.zip
+          path: .output/xen-**-chrome.zip
           if-no-files-found: error
