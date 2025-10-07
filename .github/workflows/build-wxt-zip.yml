@@ -27,5 +27,5 @@ jobs:
         with:
           name: xen
           include-hidden-files: true
-          path: .output/*.zip
+          path: .output/xen-*-chrome.zip
           if-no-files-found: error
