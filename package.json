@@ -23,5 +23,6 @@
     "@wxt-dev/module-solid": "^1.1.4",
     "typescript": "^5.9.2",
     "wxt": "^0.20.11"
-  }
+  },
+  "packageManager": "pnpm@10.15.1"
 }
