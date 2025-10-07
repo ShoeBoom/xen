@@ -8,8 +8,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   }),
   manifest: {
-    name: "Xen",
-    description: "Vertical tab management that actually works",
     permissions: ['tabs', "sidePanel"],
   },
 });
