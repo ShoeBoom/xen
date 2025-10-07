@@ -10,6 +10,7 @@ const buildRegexes = (paths: string[]) =>
 //    vs the tab being responsible for opening the new tab
 // we will default to moving the tab to the start since 99% of the time these are not opened by another tab, 
 // should update this if my mental model is wrong.
+// to see chrome urls, check chrome://chrome-urls/
 const regexes = buildRegexes(["newtab", "history", "downloads", "home"]);
 
 const isNewTab = (url: string | undefined) => {
